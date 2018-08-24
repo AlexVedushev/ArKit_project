@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF248CFA212586E300D63F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248CF9212586E300D63F49 /* AppDelegate.swift */; };
-		CF248CFE212586E300D63F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248CFD212586E300D63F49 /* ViewController.swift */; };
+		CF248CFE212586E300D63F49 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248CFD212586E300D63F49 /* MainVC.swift */; };
 		CF248D01212586E300D63F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF248CFF212586E300D63F49 /* Main.storyboard */; };
 		CF248D03212586E400D63F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF248D02212586E400D63F49 /* Assets.xcassets */; };
 		CF248D06212586E400D63F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF248D04212586E400D63F49 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		CF248CF6212586E300D63F49 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF248CF9212586E300D63F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF248CFD212586E300D63F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF248CFD212586E300D63F49 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		CF248D00212586E300D63F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF248D02212586E400D63F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF248D05212586E400D63F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				CF248CF9212586E300D63F49 /* AppDelegate.swift */,
-				CF248CFD212586E300D63F49 /* ViewController.swift */,
+				CF248CFD212586E300D63F49 /* MainVC.swift */,
 				CF248CFF212586E300D63F49 /* Main.storyboard */,
 				CF248D02212586E400D63F49 /* Assets.xcassets */,
 				CF248D04212586E400D63F49 /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF248CFE212586E300D63F49 /* ViewController.swift in Sources */,
+				CF248CFE212586E300D63F49 /* MainVC.swift in Sources */,
 				CF248CFA212586E300D63F49 /* AppDelegate.swift in Sources */,
 				CFF21BB62125B8E300D7D145 /* SceneView.swift in Sources */,
 			);
